@@ -1,0 +1,76 @@
+{
+  "hash": "b993f9cb",
+  "configHash": "61acf1d4",
+  "lockfileHash": "68b5962e",
+  "browserHash": "a3d835bb",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "046fd401",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "0e97f45b",
+      "needsInterop": false
+    },
+    "@angular/material/button": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/button.mjs",
+      "file": "@angular_material_button.js",
+      "fileHash": "41cb1e45",
+      "needsInterop": false
+    },
+    "@angular/material/list": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/list.mjs",
+      "file": "@angular_material_list.js",
+      "fileHash": "49e7af4b",
+      "needsInterop": false
+    },
+    "@angular/material/sidenav": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/sidenav.mjs",
+      "file": "@angular_material_sidenav.js",
+      "fileHash": "5cede45b",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "9c899b4c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "62170524",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "a99d8cb1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IL6W2CVH": {
+      "file": "chunk-IL6W2CVH.js"
+    },
+    "chunk-L6TMHFKQ": {
+      "file": "chunk-L6TMHFKQ.js"
+    },
+    "chunk-5UKLCV6O": {
+      "file": "chunk-5UKLCV6O.js"
+    },
+    "chunk-3GCPIP4N": {
+      "file": "chunk-3GCPIP4N.js"
+    },
+    "chunk-2VURXX3Z": {
+      "file": "chunk-2VURXX3Z.js"
+    },
+    "chunk-LTPMASOC": {
+      "file": "chunk-LTPMASOC.js"
+    }
+  }
+}

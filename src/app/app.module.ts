@@ -9,11 +9,12 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import {CareerViewComponent} from './buttons_view/buttons_view.component'
 import { LoginComponent } from './login/login.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotificacionViewComponent } from './notificacion-view/notificacion-view.component';
+import { ForoComponent } from './foro/foro.component';
+import { CareerViewComponent } from './career-view/career-view.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { NotificacionViewComponent } from './notificacion-view/notificacion-view
     InicioComponent,
     DashboardComponent,
     NotificacionViewComponent,
+    ForoComponent,
   ],
 
   imports: [
@@ -33,9 +35,9 @@ import { NotificacionViewComponent } from './notificacion-view/notificacion-view
     BrowserAnimationsModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

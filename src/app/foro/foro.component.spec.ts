@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CareerViewComponent } from './buttons_view.component';
+import { ForoComponent } from './foro.component';
 
-describe('CareerViewComponent', () => {
-  let component: CareerViewComponent;
-  let fixture: ComponentFixture<CareerViewComponent>;
+describe('ForoComponent', () => {
+  let component: ForoComponent;
+  let fixture: ComponentFixture<ForoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CareerViewComponent]
+      declarations: [ForoComponent]
     })
     .compileComponents();
-
-    fixture = TestBed.createComponent(CareerViewComponent);
+    
+    fixture = TestBed.createComponent(ForoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { RouterLink } from '@angular/router';
-import { NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
@@ -27,6 +25,9 @@ export class SidebarComponent {
      // Navegar al HeaderComponent
   }
 
-
+  irAForo() {
+    this.router.navigate(['/foro'])
+     // Navegar al HeaderComponent
+  }
 }
 

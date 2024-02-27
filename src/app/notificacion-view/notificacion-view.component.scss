@@ -1,0 +1,20 @@
+.bandeja {
+  position: fixed;
+  top: 50px; // Ajusta la posición según necesites
+  right: 10px; // Ajusta la posición según necesites
+  width: 300px; // Ajusta el ancho según necesites
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 9999; // Asegura que esté por encima de otros elementos
+  overflow: auto; // Permite hacer scroll si hay muchas notificaciones
+
+  .notificacion {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+    &:last-child {
+      border-bottom: none; // Elimina el borde inferior en la última notificación
+    }
+  }
+}

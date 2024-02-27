@@ -1,0 +1,20 @@
+<div class="component">
+  <div class="overlap-group">
+    <div class="rectangle">
+      <img
+        class="logo-principal"
+        src="../../assets/img/logo.png"
+      />
+      <div class="gestion-de-memorias">
+        Gestión de memorias <br />Universidad Central
+      </div>
+      <div class="text-wrapper">Hola! Samira Khazmou</div>
+      <button class="icono-notificacion" style="background-image: url(./../../assets/img/activo.png);" (click)="mostrarBandejaNotificaciones()"></button>
+      <app-notificacion-view *ngIf="mostrarBandeja"></app-notificacion-view>
+      <button class="icono-sesion" style="background-image: url(./../../assets/img/boceto-de-cierre.png);" (click)="irALogin()"></button>
+    </div>
+  </div>
+  <div class="container-menu-content">
+    <app-sidebar></app-sidebar>
+  </div>
+</div>

@@ -4,13 +4,12 @@ import {
   NoopAnimationsModule,
   provideAnimations,
   provideNoopAnimations
-} from "./chunk-R6H6EA6A.js";
-import "./chunk-6BPWQJ4X.js";
-import "./chunk-A5VXTDXO.js";
+} from "./chunk-KFBZBQ32.js";
+import "./chunk-UI5MEERV.js";
+import "./chunk-LQSBWYR4.js";
 import {
   ANIMATION_MODULE_TYPE
-} from "./chunk-J7MWVM4R.js";
-import "./chunk-SXIXOCJ4.js";
+} from "./chunk-IBLWGBW5.js";
 export {
   ANIMATION_MODULE_TYPE,
   BrowserAnimationsModule,

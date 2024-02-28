@@ -1,44 +1,930 @@
-.component{
-  left: 300px;
-  text-align: center;
-
-.btn-form {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 15px 40px;
+.component {
   position: relative;
-  background-color: #125e88;
-  border-radius: 40px;
-  overflow: hidden;
-  top: 50px;
-  cursor: pointer;
-
-  .btn-text {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Montserrat-Bold", Helvetica;
-    font-weight: 700;
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
+  width: 1042px;
+  height: 531px;
+  left: 215px;
+  text-align: center;
 }
 
+.component .ENCABEZADO-TABLA {
+  position: absolute;
+  width: 999px;
+  height: 24px;
+  top: 347px;
+  left: 19px;
 }
 
-.component .overlap-group{
+.component .overlap-group {
   position: relative;
   height: 595px;
-  width: 86%;
+  width: 100%;
   top: 16px;
-  left: 215px;
   background-color: #d9d9d9;
   border-color: #000000;
   border: 1px solid;
 }
+
+.component .text-wrapper {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: 65px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .div {
+  position: absolute;
+  width: 84px;
+  top: 1px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-2 {
+  position: absolute;
+  width: 74px;
+  top: -1px;
+  left: 299px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-3 {
+  position: absolute;
+  width: 106px;
+  top: -1px;
+  left: 408px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-4 {
+  position: absolute;
+  width: 129px;
+  top: 0;
+  left: 514px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-5 {
+  position: absolute;
+  width: 168px;
+  top: 0;
+  left: 657px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-6 {
+  position: absolute;
+  width: 168px;
+  top: 1px;
+  left: 831px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .FILTROS-BUSQUEDA {
+  position: absolute;
+  width: 938px;
+  height: 237px;
+  top: 78px;
+  left: 27px;
+}
+
+.component .dropdown {
+  position: absolute;
+  width: 143px;
+  height: 41px;
+  top: 65px;
+  left: 1px;
+}
+
+.component .dropdown-toggle {
+  position: relative;
+  height: 41px;
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #e6e6e6;
+}
+
+.component .category {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: var(--text-color);
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.component .vector {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 18px;
+  left: 107px;
+}
+
+.component .dropdown-toggle-wrapper {
+  position: absolute;
+  width: 143px;
+  height: 41px;
+  top: 65px;
+  left: 167px;
+}
+
+.component .div-wrapper {
+  position: absolute;
+  width: 143px;
+  height: 41px;
+  top: 196px;
+  left: 0;
+}
+
+.component .dropdown-2 {
+  position: absolute;
+  width: 226px;
+  height: 41px;
+  top: 196px;
+  left: 491px;
+}
+
+.component .img {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 18px;
+  left: 190px;
+}
+
+.component .dropdown-3 {
+  position: absolute;
+  width: 143px;
+  height: 41px;
+  top: 195px;
+  left: 168px;
+}
+
+.component .dropdown-4 {
+  position: absolute;
+  width: 143px;
+  height: 41px;
+  top: 196px;
+  left: 329px;
+}
+
+.component .text-wrapper-7 {
+  left: 1px;
+  position: absolute;
+  top: 36px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: #000000;
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.component .text-wrapper-8 {
+  left: 167px;
+  position: absolute;
+  top: 36px;
+  font-family: var(--h-6-font-family);
+  font-weight: var(--h-6-font-weight);
+  color: #000000;
+  font-size: var(--h-6-font-size);
+  letter-spacing: var(--h-6-letter-spacing);
+  line-height: var(--h-6-line-height);
+  white-space: nowrap;
+  font-style: var(--h-6-font-style);
+}
+
+.component .text-wrapper-9 {
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.component .element-medium {
+  display: flex;
+  width: 85px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 77px;
+  left: 329px;
+  background-color: var(--x03-teal-primary40-primary);
+  border-radius: 4px;
+}
+
+.component .button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  font-family: var(--03-body-body-1-medium-font-family);
+  font-weight: var(--03-body-body-1-medium-font-weight);
+  color: var(--x02-neutral100);
+  font-size: var(--03-body-body-1-medium-font-size);
+  letter-spacing: var(--03-body-body-1-medium-letter-spacing);
+  line-height: var(--03-body-body-1-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--03-body-body-1-medium-font-style);
+}
+
+.component .button-wrapper {
+  left: 853px;
+  display: flex;
+  width: 85px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 202px;
+  background-color: var(--x03-teal-primary40-primary);
+  border-radius: 4px;
+}
+
+.component .element-medium-2 {
+  left: 752px;
+  display: flex;
+  width: 85px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 202px;
+  background-color: var(--x03-teal-primary40-primary);
+  border-radius: 4px;
+}
+
+.component .element-big {
+  display: flex;
+  flex-direction: column;
+  width: 151px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  border-radius: 4px;
+}
+
+.component .field {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 48px;
+  background-color: var(--x02-neutral100);
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--x02-neutral40);
+}
+
+.component .placeholder {
+  position: absolute;
+  width: 119px;
+  top: 22px;
+  left: 16px;
+  font-family: var(--03-body-body-1-regular-font-family);
+  font-weight: var(--03-body-body-1-regular-font-weight);
+  color: var(--x02-neutral0);
+  font-size: var(--03-body-body-1-regular-font-size);
+  letter-spacing: var(--03-body-body-1-regular-letter-spacing);
+  line-height: var(--03-body-body-1-regular-line-height);
+  font-style: var(--03-body-body-1-regular-font-style);
+}
+
+.component .label {
+  position: absolute;
+  width: 119px;
+  top: 8px;
+  left: 16px;
+  font-family: var(--04-caption-caption-1-medium-font-family);
+  font-weight: var(--04-caption-caption-1-medium-font-weight);
+  color: var(--x02-neutral30);
+  font-size: var(--04-caption-caption-1-medium-font-size);
+  letter-spacing: var(--04-caption-caption-1-medium-letter-spacing);
+  line-height: var(--04-caption-caption-1-medium-line-height);
+  font-style: var(--04-caption-caption-1-medium-font-style);
+}
+
+.component .field-wrapper {
+  top: 129px;
+  left: 168px;
+  display: flex;
+  flex-direction: column;
+  width: 143px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.component .placeholder-2 {
+  position: absolute;
+  width: 111px;
+  top: 22px;
+  left: 16px;
+  font-family: var(--03-body-body-1-regular-font-family);
+  font-weight: var(--03-body-body-1-regular-font-weight);
+  color: var(--x02-neutral0);
+  font-size: var(--03-body-body-1-regular-font-size);
+  letter-spacing: var(--03-body-body-1-regular-letter-spacing);
+  line-height: var(--03-body-body-1-regular-line-height);
+  font-style: var(--03-body-body-1-regular-font-style);
+}
+
+.component .label-2 {
+  position: absolute;
+  width: 111px;
+  top: 8px;
+  left: 16px;
+  font-family: var(--04-caption-caption-1-medium-font-family);
+  font-weight: var(--04-caption-caption-1-medium-font-weight);
+  color: var(--x02-neutral30);
+  font-size: var(--04-caption-caption-1-medium-font-size);
+  letter-spacing: var(--04-caption-caption-1-medium-letter-spacing);
+  line-height: var(--04-caption-caption-1-medium-line-height);
+  font-style: var(--04-caption-caption-1-medium-font-style);
+}
+
+.component .element-big-2 {
+  top: 128px;
+  left: 329px;
+  display: flex;
+  flex-direction: column;
+  width: 143px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.component .element-big-3 {
+  top: 127px;
+  left: 490px;
+  display: flex;
+  flex-direction: column;
+  width: 143px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.component .overlap {
+  position: absolute;
+  width: 1px;
+  height: 160px;
+  top: 371px;
+  left: 0;
+}
+
+.component .INFO-PROYECTO {
+  position: absolute;
+  width: 1042px;
+  height: 56px;
+  top: 48px;
+  left: 0;
+}
+
+.component .overlap-2 {
+  position: relative;
+  height: 55px;
+  background-color: #ffffff;
+}
+
+.component .overlap-group-2 {
+  position: absolute;
+  width: 364px;
+  height: 34px;
+  top: 17px;
+  left: 288px;
+}
+
+.component .text-wrapper-10 {
+  top: 0;
+  left: 237px;
+  position: absolute;
+  width: 127px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-11 {
+  position: absolute;
+  width: 127px;
+  top: 5px;
+  left: 116px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-12 {
+  position: absolute;
+  width: 127px;
+  top: 4px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-13 {
+  position: absolute;
+  width: 62px;
+  top: 24px;
+  left: 722px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-14 {
+  position: absolute;
+  width: 47px;
+  top: 26px;
+  left: 131px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-15 {
+  position: absolute;
+  width: 47px;
+  top: 26px;
+  left: 37px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .btn-sm {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 23px;
+  left: 230px;
+}
+
+.component .celda-INFO-PROYECTO {
+  position: absolute;
+  width: 1040px;
+  height: 58px;
+  top: 102px;
+  left: 0;
+}
+
+.component .overlap-3 {
+  position: relative;
+  height: 57px;
+}
+
+.component .rectangle {
+  position: absolute;
+  width: 1040px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.component .text-wrapper-16 {
+  position: absolute;
+  width: 127px;
+  top: 23px;
+  left: 291px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-17 {
+  top: 23px;
+  left: 525px;
+  position: absolute;
+  width: 127px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-18 {
+  position: absolute;
+  width: 62px;
+  top: 28px;
+  left: 723px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-19 {
+  position: absolute;
+  width: 127px;
+  top: 28px;
+  left: 406px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-20 {
+  position: absolute;
+  width: 47px;
+  top: 22px;
+  left: 131px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-21 {
+  top: 20px;
+  position: absolute;
+  width: 47px;
+  left: 37px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .btn-sm-2 {
+  top: 22px;
+  left: 229px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+}
+
+.component .INFO-PROYECTO-2 {
+  position: absolute;
+  width: 1041px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.component .btn-sm-3 {
+  top: 12px;
+  left: 230px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+}
+
+.component .text-wrapper-22 {
+  position: absolute;
+  width: 47px;
+  top: 12px;
+  left: 133px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .overlap-4 {
+  position: absolute;
+  width: 365px;
+  height: 32px;
+  top: 11px;
+  left: 288px;
+}
+
+.component .text-wrapper-23 {
+  top: 3px;
+  left: 238px;
+  position: absolute;
+  width: 127px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-24 {
+  position: absolute;
+  width: 127px;
+  top: 1px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-25 {
+  position: absolute;
+  width: 127px;
+  top: 0;
+  left: 117px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-26 {
+  position: absolute;
+  width: 62px;
+  top: 11px;
+  left: 722px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .text-wrapper-27 {
+  top: 14px;
+  position: absolute;
+  width: 47px;
+  left: 37px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.component .element-no-lable {
+  position: absolute;
+  width: 29px;
+  height: 28px;
+  top: 14px;
+  left: 915px;
+}
+
+.component .checkbox {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 4px;
+  left: 4px;
+}
+
+.component .BOTONES-INICIO {
+  position: absolute;
+  width: 989px;
+  height: 62px;
+  top: 0;
+  left: 23px;
+}
+
+.component .btn-lg {
+  display: flex;
+  flex-direction: column;
+  width: 198px;
+  height: 62px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #125e88;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.component .h {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--light-text-color);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.component .h-wrapper {
+  width: 229px;
+  left: 243px;
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  background-color: var(--primary-color);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.component .btn-lg-2 {
+  width: 213px;
+  left: 514px;
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  background-color: var(--primary-color);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.component .btn-lg-3 {
+  width: 213px;
+  left: 756px;
+  display: flex;
+  flex-direction: column;
+  height: 62px;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  background-color: var(--primary-color);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.component .h-2 {
+  margin-left: -20.5px;
+  margin-right: -20.5px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--light-text-color);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+
+  .btn-form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 40px;
+    position: relative;
+    background-color: #125e88;
+    border-radius: 40px;
+    overflow: hidden;
+    top: 50px;
+    cursor: pointer;
+
+    .btn-text {
+      position: relative;
+      width: fit-content;
+      margin-top: -1px;
+      font-family: "Montserrat-Bold", Helvetica;
+      font-weight: 700;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      line-height: 32px;
+      white-space: nowrap;
+    }
+  }
+
+
+

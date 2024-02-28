@@ -29,5 +29,10 @@ export class SidebarComponent {
     this.router.navigate(['/foro'])
      // Navegar al HeaderComponent
   }
+
+  irAProyectos() {
+    this.router.navigate(['/proyectos'])
+     // Navegar al HeaderComponent
+  }
 }
 

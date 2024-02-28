@@ -3,173 +3,97 @@
   width: 215px;
   height: 420px;
   z-index: 9999;
-}
 
-.component .overlap {
-  position: absolute;
-  width: 215px;
-  height: 120px;
-  top: 0;
-  left: 0;
-}
+  .overlap {
+    position: absolute;
+    width: 215px;
+    height: 120px;
+    top: 0;
+    left: 0;
+  }
 
-.component .MENU-INICIO {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 0;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
+  .MENU-INICIO,
+  .MENU-MEMORIAS,
+  .MENU-DASHBOARD,
+  .MENU-FORO,
+  .MENU-PROYECTOS,
+  .MENU-USUARIOS,
+  .MENU-RECURSOS {
+    position: absolute;
+    width: 215px;
+    height: 60px;
+    border: 1px solid;
+    border-color: #000000;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+
+  .MENU-INICIO,
+  .MENU-MEMORIAS {
+    top: 0;
+  }
+
+  .MENU-MEMORIAS {
+    top: 60px;
+  }
+
+  .MENU-DASHBOARD {
+    top: 120px;
+
+    &.active {
+      background-color: green;
+      color: white;
+    }
+  }
+
+  .MENU-FORO {
+    top: 180px;
+  }
+
+  .MENU-PROYECTOS {
+    top: 240px;
+  }
+
+  .MENU-USUARIOS {
+    top: 300px;
+  }
+
+  .MENU-RECURSOS {
+    top: 360px;
+  }
+
+  .texto-menu {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+
+  .icono-menu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+    object-fit: cover;
   }
 }
-
-.component .MENU-MEMORIAS {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 60px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-//
-.component .texto-menu {
-  position: absolute;
-  display: block;
-  width: 100%; /* Cambiado a 100% para utilizar todo el ancho del bloque .MENU-INICIO */
-  height: 100%; /* Cambiado a 100% para utilizar todo el alto del bloque .MENU-INICIO */
-  font-family: "Montserrat-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 20px;
-  text-align: center;
-  line-height: 60px;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-
-.component .icono-menu {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 15px;
-  left: 15px;
-  object-fit: cover;
-  }
-
-
-.component .MENU-DASHBOARD {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 120px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-  &.active {
-    background-color: green; /* Cambia este color al que desees cuando el dashboard esté visible */
-    color: white; /* Cambia este color al que desees para el texto cuando el dashboard esté visible */
-  }
-
-  &:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  }
-
-  .component .MENU-MEMORIAS.active {
-    /* Estilos cuando el DashboardComponent está visible */
-    background-color: green; /* Cambia este color al que desees cuando el dashboard esté visible */
-  }
-
-
-
-.component .MENU-FORO {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 180px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-
-.component .MENU-PROYECTOS {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 240px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-
-.component .MENU-USUARIOS {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 300px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-
-.component .MENU-RECURSOS {
-  position: absolute;
-  width: 215px;
-  height: 60px;
-  top: 360px;
-  left: 0;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  &:hover {
-    background-color: #333; /* Gris oscuro para el fondo al pasar el cursor */
-    color: #fff; /* Texto blanco al pasar el cursor */
-  }
-}
-

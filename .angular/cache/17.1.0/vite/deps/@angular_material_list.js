@@ -1,6 +1,6 @@
 import {
   SelectionModel
-} from "./chunk-7NT3FKP7.js";
+} from "./chunk-C36T5HMJ.js";
 import {
   A,
   CdkObserveContent,
@@ -18,14 +18,14 @@ import {
   coerceBooleanProperty,
   coerceNumberProperty,
   hasModifierKey
-} from "./chunk-CX54AO54.js";
-import "./chunk-R6H6EA6A.js";
-import "./chunk-6BPWQJ4X.js";
+} from "./chunk-WJKI7ITK.js";
+import "./chunk-KFBZBQ32.js";
+import "./chunk-UI5MEERV.js";
 import {
   CommonModule,
   NgTemplateOutlet,
   getDOM
-} from "./chunk-A5VXTDXO.js";
+} from "./chunk-LQSBWYR4.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -50,15 +50,24 @@ import {
   RuntimeError,
   Self,
   SkipSelf,
+  Subject,
+  Subscription,
   Version,
   ViewChild,
   ViewEncapsulation$1,
+  __spreadProps,
+  __spreadValues,
   booleanAttribute,
+  forkJoin,
   forwardRef,
+  from,
   inject,
   isPromise,
   isSubscribable,
+  map,
+  merge,
   setClassMetadata,
+  takeUntil,
   ɵɵInheritDefinitionFeature,
   ɵɵNgOnChangesFeature,
   ɵɵProvidersFeature,
@@ -91,18 +100,7 @@ import {
   ɵɵtemplate,
   ɵɵtemplateRefExtractor,
   ɵɵviewQuery
-} from "./chunk-J7MWVM4R.js";
-import {
-  Subject,
-  Subscription,
-  __spreadProps,
-  __spreadValues,
-  forkJoin,
-  from,
-  map,
-  merge,
-  takeUntil
-} from "./chunk-SXIXOCJ4.js";
+} from "./chunk-IBLWGBW5.js";
 
 // node_modules/@angular/material/fesm2022/divider.mjs
 var _MatDivider = class _MatDivider {

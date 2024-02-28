@@ -7,7 +7,6 @@ $background-color_2: #125e88;
 $border-color_1: #000000;
 
 .component {
-  text-align: center;
   height: 595px;
   .overlap-group {
     position: relative;
@@ -19,70 +18,60 @@ $border-color_1: #000000;
     border: 1px solid $border-color_1;
   }
   .text-wrapper {
-    width: calc(33.33% - 20px);
     position: absolute;
-    width: 140px;
     top: 19px;
     left: 64px;
     font-family: $font-family_1;
     font-weight: 600;
     color: $color_1;
-    font-size: 24px;
+    font-size: 40px;
     letter-spacing: 0.2px;
     line-height: 24px;
   }
   .overlap,
   .overlap-2,
   .overlap-3 {
-    width: calc(33.33% - 20px);
     position: absolute;
-    width: 219px;
-    height: 286px;
+    width: 300px;
+    height: 400px;
     top: 153px;
     background-color: $background-color_1;
     border: 1px solid $border-color_1;
+    text-align: center;
   }
   .overlap {
     left: 64px;
   }
   .overlap-2 {
-    left: 366px;
+    left: 510px;
   }
   .overlap-3 {
-    left: 696px;
+    left: 950px;
   }
   .div,
   .text-wrapper-2,
   .text-wrapper-3 {
-    width: calc(33.33% - 20px);
-    position: absolute;
     font-family: $font-family_1;
     font-weight: 700;
     color: $color_1;
-    font-size: 15px;
-    text-align: center;
+    font-size: 25px;
     letter-spacing: 0;
     line-height: normal;
   }
   .div {
-    width: 70px;
     top: 18px;
-    left: 74px;
   }
   .text-wrapper-2 {
-    width: 126px;
     top: 17px;
-    left: 46px;
+    left: 85px;
   }
   .text-wrapper-3 {
-    width: 94px;
     top: 18px;
-    left: 62px;
+    left: 110px;
   }
   .btn-lg,
   .h-wrapper,
   .div-wrapper {
-    width: calc(33.33% - 20px);
     display: flex;
     flex-direction: column;
     width: 164px;
@@ -95,16 +84,18 @@ $border-color_1: #000000;
     background-color: $background-color_2;
     border-radius: 40px;
     overflow: hidden;
+    cursor: pointer;
+    text-align: center;
     &:hover{
       background-color: aqua;
     }
   }
   .btn-lg {
-    left: 27px;
+    top: 300px;
+    left: 70px;
   }
   .h-wrapper {
     left: 64px;
-    cursor: pointer;
   }
   .div-wrapper {
     left: 299px;

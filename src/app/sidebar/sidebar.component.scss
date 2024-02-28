@@ -46,7 +46,7 @@
     color: #fff; /* Texto blanco al pasar el cursor */
   }
 }
-
+//
 .component .texto-menu {
   position: absolute;
   display: block;
@@ -87,15 +87,22 @@
   border-color: #000000;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
+  &.active {
+    background-color: green; /* Cambia este color al que desees cuando el dashboard esté visible */
+    color: white; /* Cambia este color al que desees para el texto cuando el dashboard esté visible */
+  }
+
   &:hover {
     background-color: #333;
     color: #fff;
   }
-  .MENU-DASHBOARD.enDashboard {
-    background-color: red; // Cambiar al color deseado cuando estás en la ruta /dashboard
   }
 
-}
+  .component .MENU-MEMORIAS.active {
+    /* Estilos cuando el DashboardComponent está visible */
+    background-color: green; /* Cambia este color al que desees cuando el dashboard esté visible */
+  }
+
 
 
 .component .MENU-FORO {

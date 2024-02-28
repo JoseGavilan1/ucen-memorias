@@ -1,181 +1,152 @@
-.component{
+$color_1: #000000;
+$color_2: var(--light-text-color);
+$color_3: white;
+$font-family_1: "Montserrat-Semibold", Helvetica;
+$background-color_1: #d9d9d9;
+$background-color_2: #125e88;
+$border-color_1: #000000;
+
+.component {
   text-align: center;
   height: 595px;
+  .overlap-group {
+    position: relative;
+    height: 100%;
+    width: 86%;
+    top: 16px;
+    left: 215px;
+    background-color: $background-color_1;
+    border: 1px solid $border-color_1;
+  }
+  .text-wrapper {
+    width: calc(33.33% - 20px);
+    position: absolute;
+    width: 140px;
+    top: 19px;
+    left: 64px;
+    font-family: $font-family_1;
+    font-weight: 600;
+    color: $color_1;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .overlap,
+  .overlap-2,
+  .overlap-3 {
+    width: calc(33.33% - 20px);
+    position: absolute;
+    width: 219px;
+    height: 286px;
+    top: 153px;
+    background-color: $background-color_1;
+    border: 1px solid $border-color_1;
+  }
+  .overlap {
+    left: 64px;
+  }
+  .overlap-2 {
+    left: 366px;
+  }
+  .overlap-3 {
+    left: 696px;
+  }
+  .div,
+  .text-wrapper-2,
+  .text-wrapper-3 {
+    width: calc(33.33% - 20px);
+    position: absolute;
+    font-family: $font-family_1;
+    font-weight: 700;
+    color: $color_1;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .div {
+    width: 70px;
+    top: 18px;
+    left: 74px;
+  }
+  .text-wrapper-2 {
+    width: 126px;
+    top: 17px;
+    left: 46px;
+  }
+  .text-wrapper-3 {
+    width: 94px;
+    top: 18px;
+    left: 62px;
+  }
+  .btn-lg,
+  .h-wrapper,
+  .div-wrapper {
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+    height: 62px;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 40px;
+    position: absolute;
+    top: 63px;
+    background-color: $background-color_2;
+    border-radius: 40px;
+    overflow: hidden;
+    &:hover{
+      background-color: aqua;
+    }
+  }
+  .btn-lg {
+    left: 27px;
+  }
+  .h-wrapper {
+    left: 64px;
+    cursor: pointer;
+  }
+  .div-wrapper {
+    left: 299px;
+  }
+  .h,
+  .h-2 {
+    width: calc(33.33% - 20px);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: $font-family_1;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    text-decoration: none;
+    white-space: nowrap;
+
+  }
+  .h {
+    color: $color_2;
+    &:hover {
+      background-color: aqua;
+      color: $color_1;
+    }
+  }
+  .h-2 {
+    color: $color_3;
+  }
+
+  @media (max-width: 768px) {
+    .item {
+      width: calc(50% - 20px); /* En pantallas más pequeñas, los elementos ocuparán la mitad del ancho del contenedor */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .item {
+      width: 100%; /* En pantallas aún más pequeñas, los elementos ocuparán todo el ancho del contenedor */
+    }
+  }
 }
 
-.component .overlap-group{
-  position: relative;
-  height: 100%;
-  width: 85.8%;
-  top: 16px;
-  left: 215px;
-  background-color: #d9d9d9;
-  border-color: #000000;
-  border: 1px solid;
-}
 
-.component .text-wrapper{
-  position: absolute;
-  width: 140px;
-  top: 19px;
-  left: 64px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0.2px;
-  line-height: 24px;
-}
-
-.component .overlap{
-  position: absolute;
-  width: 219px;
-  height: 286px;
-  top: 153px;
-  left: 64px;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.component .div{
-  position: absolute;
-  width: 70px;
-  top: 18px;
-  left: 74px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.component .btn-lg{
-  display:flex;
-  flex-direction: column;
-  width: 164px;
-  height: 62px;
-  align-items: center;
-  gap: 10px;
-  padding: 15px 40px;
-  position: absolute;
-  top: 200px;
-  left: 27px;
-  background-color: #125e88;
-  border-radius: 40px;
-  overflow: hidden;
-}
-
-.component .h{
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 700;
-  color: var(--light-text-color);
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.1px;
-  line-height: 32px;
-  white-space: nowrap;
-}
-
-.component .overlap-2{
-  position: absolute;
-  width: 219px;
-  height: 286px;
-  top: 153px;
-  left: 366px;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.component .text-wrapper-2{
-  position: absolute;
-  width: 126px;
-  top: 17px;
-  left: 46px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0px;
-  line-height: normal;
-}
-
-.component .overlap-3{
-  position: absolute;
-  width: 219px;
-  height: 286px;
-  top: 153px;
-  left: 696px;
-  background-color: #d9d9d9;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.component .text-wrapper-3{
-  position: absolute;
-  width: 94px;
-  top: 18px;
-  left: 62px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0px;
-  line-height: normal;
-}
-
-.component .h-wrapper{
-  width: 156px;
-  left: 64px;
-  display: flex;
-  flex-direction: column;
-  height: 62px;
-  align-items: center;
-  gap: 10px;
-  padding: 15px 40px;
-  position: absolute;
-  top: 63px;
-  background-color: #125e88;
-  border-radius: 40px;
-  overflow: hidden;
-}
-
-.component .div-wrapper{
-  width: 164px;
-  left: 299px;
-  display: flex;
-  flex-direction: column;
-  height: 62px;
-  align-items: center;
-  gap: 10px;
-  padding: 15px 40px;
-  position: absolute;
-  top: 63px;
-  background-color: #125e88;
-  border-radius: 40px;
-  overflow: hidden;
-}
-
-.component .h-2{
-  margin-left: -18.51px;
-  margin-right: -18.51px;
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Montserrat-Semibold", Helvetica;
-  font-weight: 700;
-  color: var(--light-text-color);
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.1px;
-  line-height: 32px;
-  white-space: nowrap;
-}

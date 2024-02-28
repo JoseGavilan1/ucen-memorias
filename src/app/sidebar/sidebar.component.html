@@ -12,8 +12,8 @@
         <img class="icono-menu" src="../../assets/img/documentos.png" />
       </a>
     </div>
-    <div class="MENU-DASHBOARD">
-      <a [routerLink]="['/dashboard']" >
+    <div class="MENU-DASHBOARD" [ngClass]="{'active': isDashboardVisible}">
+      <a [routerLink]="['/dashboard']">
         <div class="texto-menu">Dashboard</div>
         <img class="icono-menu" src="../../assets/img/kpi.png" />
       </a>

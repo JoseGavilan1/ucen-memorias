@@ -1,2 +1,24 @@
 <app-header></app-header>
-<h1 style="text-align: center; margin-top: 30px;">Este es el inicio</h1>
+<div class="content">
+  <h1>Este es el inicio</h1>
+  <p class="p">
+    En este portal podras administrar <br />
+    tus documentos de tu memoria de titulo, asi como tambien<br />
+    tus calificaciones, la informacion de tu proyecto y recursos<br />
+    que necesites para el desarrollo de tu tesis!
+  </p>
+  <div class="content-2">
+    <h1>Esta es la segunda parte del inicio</h1>
+    <div>
+      <button class="button-1">
+        <a [routerLink]="'/memorias'">Ir a Memorias</a>
+      </button>
+      <button class="button-1">
+        <a [routerLink]="'/dashboard'">Ir a KPI'S</a>
+      </button>
+      <button class="button-1">
+        <a [routerLink]="'/usuarios'">Ir a Usuarios</a>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './inicio.component.scss'
 })
 export class InicioComponent {
+  constructor(private router: Router) {}
+
+  irAUsuarios() {
+    this.router.navigate(['/usuarios']) // Navegar al HeaderComponent
+  }
 
 }

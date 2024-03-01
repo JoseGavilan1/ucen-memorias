@@ -15,6 +15,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotificacionViewComponent } from './notificacion-view/notificacion-view.component';
 import { ForoComponent } from './foro/foro.component';
 import { CareerViewComponent } from './career-view/career-view.component';
+import { MatTableModule } from '@angular/material/table';
+import {FormsModule} from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,7 @@ import { CareerViewComponent } from './career-view/career-view.component';
     DashboardComponent,
     NotificacionViewComponent,
     ForoComponent,
+    TablaUsuariosComponent,
   ],
 
   imports: [
@@ -36,6 +41,10 @@ import { CareerViewComponent } from './career-view/career-view.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
+    MatTableModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent],

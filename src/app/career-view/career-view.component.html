@@ -1,9 +1,70 @@
 <app-header></app-header>
 <div class="component">
   <div class="overlap-group">
-    <button class="botones_interact">Ver proyectos</button>
-    <button class="botones_interact">Agregar proyecto</button>
-    <button class="botones_interact">Agregar evento</button>
-    <button class="botones_interact">Agregar estudiantes</button>
+    <div>
+      <button class="botones_interact">Ver proyectos</button>
+      <button class="botones_interact">Agregar proyecto</button>
+      <button class="botones_interact">Agregar evento</button>
+      <button class="botones_interact">Agregar estudiantes</button>
+    </div>
+    <div class="titulo-memorias">
+      <h1 class="titulo">Memorias</h1>
+    </div>
+    <div class="titulo-filtros">
+      <h2 class="titulo-filtros-label">Seleccione Carrera</h2>
+      <h2 class="titulo-filtros-label" style="margin-left: 70px;">Seleccionar periodo</h2>
+    </div>
+    <div class="contenedor-filtros">
+      <select name="Carreras" class="dropdown">
+        <option value="">---</option>
+        <option value="Informatica">ICCI</option>
+        <option value="Industrial">ICI</option>
+      </select>
+      <select name="Periodo" class="dropdown" style="margin-left: 164px; width: auto;">
+        <option value="">---</option>
+        <option value="Informatica">01/2024</option>
+        <option value="Industrial">02/2024</option>
+      </select>
+      <button class="boton-buscar">Buscar</button>
+    </div>
+    <div class="contenedor-input-filtros">
+      <input placeholder="ID de proyecto" class="input-case">
+      <input placeholder="Nombre proyecto" class="input-case" style="margin-left: 20px; width: 150px;">
+      <input placeholder="Nombre Alumno" class="input-case" style="margin-left: 20px; width: 150px;">
+      <input placeholder="Nombre profesor" class="input-case" style="margin-left: 20px; width: 150px;">
+    </div>
+    <div class="content-dropdowns-filters">
+      <select name="Estado" class="dropdown">
+        <option value="">Estado</option>
+        <option value="Pendiente">Pendiente</option>
+        <option value="Aprobado">Aprobado</option>
+        <option value="Rechazado">Rechazado</option>
+        <option value="etc">etc</option>
+      </select>
+      <select name="Periodo" class="dropdown" style="margin-left: 20px;">
+        <option value="">Periodo</option>
+        <option value="01/2024">01/2024</option>
+        <option value="01/2024">02/2024</option>
+      </select>
+      <select name="Curso" class="dropdown" style="margin-left: 20px;">
+        <option value="">Curso</option>
+        <option value="PT1">PT1</option>
+        <option value="PT2">PT2</option>
+      </select>
+      <select name="Curso" class="dropdown" style="margin-left: 20px;">
+        <option value="">Area de investigación</option>
+        <option value="PT1">IA</option>
+        <option value="PT2">Ciencia de datos</option>
+        <option value="PT2">Ingenieria de software</option>
+        <option value="PT2">Redes y telecomunicaciones</option>
+        <option value="PT2">Ciberseguridad</option>
+        <option value="PT2">Otro</option>
+      </select>
+      <button class="boton-buscar">Buscar</button>
+      <button class="boton-buscar" style="width: auto; margin-left: 20px;" >Limpiar filtros</button>
+    </div>
+    <div>
+      <app-tabla-usuarios></app-tabla-usuarios>
+    </div>
   </div>
 </div>

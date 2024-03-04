@@ -1,32 +1,45 @@
-<app-header></app-header>
-<div class="content">
+<div class="tabla-proyectos">
   <table mat-table [dataSource]="datos" class="mat-elevation-z8">
 
-    <ng-container matColumnDef="codigo">
-      <th mat-header-cell *matHeaderCellDef> Código </th>
-      <td mat-cell *matCellDef="let articulo"> {{articulo.codigo}} </td>
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.id}} </td>
     </ng-container>
 
-    <ng-container matColumnDef="descripcion">
-      <th mat-header-cell *matHeaderCellDef> Descripción </th>
-      <td mat-cell *matCellDef="let articulo"> {{articulo.descripcion}} </td>
+    <ng-container matColumnDef="nombre de proyecto">
+      <th mat-header-cell *matHeaderCellDef> Nombre proyecto </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.nombre_proyecto}} </td>
     </ng-container>
 
-    <ng-container matColumnDef="precio">
-      <th mat-header-cell *matHeaderCellDef> Precio </th>
-      <td mat-cell *matCellDef="let articulo"> {{articulo.precio}} </td>
+    <ng-container matColumnDef="carrera">
+      <th mat-header-cell *matHeaderCellDef> Carrera </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.carrera}} </td>
     </ng-container>
 
-    <ng-container matColumnDef="borrar">
-      <th mat-header-cell *matHeaderCellDef> Borra? </th>
-      <td mat-cell *matCellDef="let j = index;">
-        <button mat-raised-button color="warn" focusable="false" (click)="borrarFila(j)">
-          Borra?
-        </button>
-      </td>
+    <ng-container matColumnDef="curso actual">
+      <th mat-header-cell *matHeaderCellDef> Curso </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.curso}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="periodo">
+      <th mat-header-cell *matHeaderCellDef> Periodo </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.periodo}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="area de investigacion">
+      <th mat-header-cell *matHeaderCellDef> Area de investigacion </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.area_investigacion}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="estado">
+      <th mat-header-cell *matHeaderCellDef> Estado </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.estado}} </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="columnas"></tr>
     <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
+  </table>
+  <table>
+    
   </table>
   </div>

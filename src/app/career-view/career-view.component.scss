@@ -18,10 +18,72 @@ $color_1: #000000;
       left: 215px;
       background-color: $background-color_1;
       border: 1px solid $border-color_1;
+      width: 99.8%;
+    }
+
+    .titulo{
+      font-size: 25px;
+    }
+
+    .titulo-memorias{
+      text-align: start;
+      margin-left: 70px;
+      margin-top: 20px;
     }
 
   .botones_interact{
     margin-right: 60px;
-    margin-top: 50px;
+    margin-top: 25px;
   }
+
+  .titulo-filtros{
+      text-align: left;
+      margin-left: 70px;
+      display: flex;
+      margin-top: 10px;
+  }
+
+  .titulo-filtros-label{
+    font-size: 16px;
+  }
+
+  .contenedor-filtros{
+    text-align: left;
+  }
+
+  .dropdown{
+    margin-left: 70px;
+    width: auto;
+    text-align: center;
+    height: 30px;
+  }
+
+  .boton-buscar{
+    margin-left: 100px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .contenedor-input-filtros{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .input-case{
+    height: 30px;
+    width: 130px;
+    text-align: center;
+  }
+
+  .content-dropdowns-filters{
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  p{
+    margin-left: 20px;
+  }
+
 }

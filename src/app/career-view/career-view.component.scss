@@ -21,6 +21,9 @@ $color_1: #000000;
       width: 1705px;
     }
 
+    .contenedor-botones{
+      text-align: center;
+    }
     .titulo{
       font-size: 25px;
     }
@@ -32,8 +35,16 @@ $color_1: #000000;
     }
 
     .botones_interact{
-      margin-right: 60px;
-      margin-top: 25px;
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 20px;
+      border-radius: 60px;
+      border: solid 1px;
+      height: 70px;
+      width: 250px;
+      background-color: #23A6F0;
+      color: azure;
+      font-weight: 550;
     }
 
     .titulo-filtros{
@@ -86,4 +97,11 @@ $color_1: #000000;
       margin-left: 20px;
     }
 
+    @media (max-width: 768px), (max-width: 480px) {
+      .component {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
 }

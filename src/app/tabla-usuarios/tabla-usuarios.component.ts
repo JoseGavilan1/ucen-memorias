@@ -12,10 +12,19 @@ export class TablaUsuariosComponent {
 
   datos: Articulo[] =
   [new Articulo(1, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
-  new Articulo(2, 'manzanas', 'ICI','PT1','01/2024','ia','listo'),
-  new Articulo(3, 'naranjas', 'ICCI','PT1','01/2024','ia','listo'),
-
-  new Articulo(3, 'naranjas', 'ICCI','PT1','01/2024','ia','listo'),];
+  new Articulo(2, 'Proyecto 1', 'ICI','PT1','01/2024','ia','listo'),
+  new Articulo(3, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(4, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(5, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(6, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(7, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(8, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(9, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(10, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(11, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(12, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(13, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),
+  new Articulo(14, 'Proyecto 1', 'ICCI','PT1','01/2024','ia','listo'),];
 
   articuloselect: Articulo = new Articulo(0, "", "","","","","");
 

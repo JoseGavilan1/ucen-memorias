@@ -19,6 +19,7 @@ import { MatTableModule } from '@angular/material/table';
 import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.component';
+import { BotonesDocenteComponent } from './botones-docente/botones-docente.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.componen
     NotificacionViewComponent,
     ForoComponent,
     TablaUsuariosComponent,
+    BotonesDocenteComponent,
   ],
 
   imports: [

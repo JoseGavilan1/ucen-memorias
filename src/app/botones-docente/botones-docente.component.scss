@@ -1,0 +1,29 @@
+$color_1: #000000;
+$color_2: var(--light-text-color);
+$color_3: white;
+$font-family_1: "Montserrat-Semibold", Helvetica;
+$background-color_1: #d9d9d9;
+$background-color_2: #125e88;
+$border-color_1: #000000;
+
+
+  .contenedor-botones {
+    text-align: center;
+  }
+
+  .botones_interact {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 60px;
+    border: solid 1px;
+    border-color: transparent;
+    height: 60px;
+    width: 220px;
+    background-color: #23a6f0;
+    color: azure;
+    font-weight: 550;
+  }
+
+
+

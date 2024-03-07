@@ -7,8 +7,7 @@ $color_1: #000000;
   $border-color_1: #000000;
 
   .component {
-    height: 595px;
-    width: 86%;
+    height: auto;
 
     .overlap-group {
       position: relative;
@@ -18,7 +17,7 @@ $color_1: #000000;
       left: 215px;
       background-color: $background-color_1;
       border: 1px solid $border-color_1;
-      width: 1705px;
+      width: 88.7%;
     }
 
     .contenedor-botones{
@@ -40,8 +39,9 @@ $color_1: #000000;
       margin-top: 20px;
       border-radius: 60px;
       border: solid 1px;
-      height: 70px;
-      width: 250px;
+      border-color: transparent;
+      height: 60px;
+      width: 220px;
       background-color: #23A6F0;
       color: azure;
       font-weight: 550;
@@ -74,6 +74,10 @@ $color_1: #000000;
       width: 90px;
       height: 30px;
       border-radius: 10px;
+      color: azure;
+      background-color: mediumseagreen;
+      text-align: center;
+      border-color: transparent;
     }
 
     .contenedor-input-filtros{

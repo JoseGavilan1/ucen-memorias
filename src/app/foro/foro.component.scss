@@ -11,20 +11,22 @@ $border-color_1: #000000;
 
   .overlap-group {
     position: relative;
-    text-align: center;
-    height: 819px;
-    top: 16px;
-    left: 215px;
-    background-color: $background-color_1;
-    border: 1px solid $border-color_1;
-    width: 88.7%;
+      text-align: center;
+      height: auto;
+      top: 16px;
+      left: 215px;
+      background-color: $background-color_1;
+      width: 88.7%;
   }
 
   .titulo{
     font-size: 500px;
     text-align: left;
     margin-left: 30px;
-    margin-top: 20px;
+  }
+
+  .label-titulo{
+    padding-top: 20px;
   }
 
   .contenedor-botones-inicio{
@@ -44,5 +46,16 @@ $border-color_1: #000000;
   .contenedor-cuadros{
     text-align: center;
     display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .content-cuadros{
+    width: 515px;
+    height: 600px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
   }
 }

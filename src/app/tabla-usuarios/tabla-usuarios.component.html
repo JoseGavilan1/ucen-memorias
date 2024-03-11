@@ -8,7 +8,8 @@
 
     <ng-container matColumnDef="nombre de proyecto">
       <th mat-header-cell *matHeaderCellDef> Nombre proyecto </th>
-      <td mat-cell *matCellDef="let articulo"> {{articulo.nombre_proyecto}} </td>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.nombre_proyecto}}
+      </td>
     </ng-container>
 
     <ng-container matColumnDef="carrera">
@@ -34,6 +35,12 @@
     <ng-container matColumnDef="estado">
       <th mat-header-cell *matHeaderCellDef> Estado </th>
       <td mat-cell *matCellDef="let articulo"> {{articulo.estado}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="detalles">
+      <th mat-header-cell *matHeaderCellDef> Detalles </th>
+      <td mat-cell *matCellDef="let articulo"> {{articulo.detalles}}
+      </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="columnas"></tr>

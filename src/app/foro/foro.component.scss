@@ -7,137 +7,42 @@ $background-color_2: #125e88;
 $border-color_1: #000000;
 
 .component {
-  height: 595px;
+  height: auto;
+
   .overlap-group {
     position: relative;
+    text-align: center;
     height: 819px;
-    width: 88.7%;
     top: 16px;
     left: 215px;
     background-color: $background-color_1;
     border: 1px solid $border-color_1;
-  }
-  .text-wrapper {
-    position: absolute;
-    top: 19px;
-    left: 64px;
-    font-family: $font-family_1;
-    font-weight: 600;
-    color: $color_1;
-    font-size: 40px;
-    letter-spacing: 0.2px;
-    line-height: 24px;
-  }
-  .overlap,
-  .overlap-2,
-  .overlap-3 {
-    position: absolute;
-    width: 300px;
-    height: 400px;
-    top: 153px;
-    background-color: $background-color_1;
-    border: 1px solid $border-color_1;
-    text-align: center;
-  }
-  .overlap {
-    left: 64px;
-  }
-  .overlap-2 {
-    left: 510px;
-  }
-  .overlap-3 {
-    left: 950px;
-  }
-  .div,
-  .text-wrapper-2,
-  .text-wrapper-3 {
-    font-family: $font-family_1;
-    font-weight: 700;
-    color: $color_1;
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  .div {
-    top: 18px;
-  }
-  .text-wrapper-2 {
-    top: 17px;
-    left: 85px;
-  }
-  .text-wrapper-3 {
-    top: 18px;
-    left: 110px;
-  }
-  .btn-lg,
-  .h-wrapper,
-  .div-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 164px;
-    height: 62px;
-    align-items: center;
-    gap: 10px;
-    padding: 15px 40px;
-    position: absolute;
-    top: 63px;
-    background-color: $background-color_2;
-    border-radius: 40px;
-    overflow: hidden;
-    cursor: pointer;
-    text-align: center;
-    &:hover{
-      background-color: aqua;
-    }
-  }
-  .btn-lg {
-    top: 300px;
-    left: 70px;
-  }
-  .h-wrapper {
-    left: 64px;
-  }
-  .div-wrapper {
-    left: 299px;
-  }
-  .h,
-  .h-2 {
-    width: calc(33.33% - 20px);
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: $font-family_1;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    line-height: 32px;
-    text-decoration: none;
-    white-space: nowrap;
-
-  }
-  .h {
-    color: $color_2;
-    &:hover {
-      background-color: aqua;
-      color: $color_1;
-    }
-  }
-  .h-2 {
-    color: $color_3;
+    width: 88.7%;
   }
 
-  @media (max-width: 768px) {
-    .item {
-      width: calc(50% - 20px); /* En pantallas más pequeñas, los elementos ocuparán la mitad del ancho del contenedor */
-    }
+  .titulo{
+    font-size: 500px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
   }
 
-  @media (max-width: 480px) {
-    .item {
-      width: 100%; /* En pantallas aún más pequeñas, los elementos ocuparán todo el ancho del contenedor */
-    }
+  .contenedor-botones-inicio{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .botones-interact{
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    color: azure;
+    background-color: #125E89;
+  }
+
+  .contenedor-cuadros{
+    text-align: center;
+    display: inline-flex;
   }
 }
-
-

@@ -21,6 +21,8 @@ import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.component';
 import { BotonesDocenteComponent } from './botones-docente/botones-docente.component';
+import { UploadFilesComponent } from './upload-files/upload-files.component';
+import { BotonesForoComponent } from './botones-foro/botones-foro.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { BotonesDocenteComponent } from './botones-docente/botones-docente.compo
     ForoComponent,
     TablaUsuariosComponent,
     BotonesDocenteComponent,
+    UploadFilesComponent,
+    BotonesForoComponent,
   ],
 
   imports: [

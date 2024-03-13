@@ -7,6 +7,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ForoComponent } from './foro/foro.component';
 import { CareerViewComponent } from './career-view/career-view.component';
 import { TablaUsuariosComponent } from './tabla-usuarios/tabla-usuarios.component';
+import { BotonesForoComponent } from './botones-foro/botones-foro.component';
+import { UploadFilesComponent } from './upload-files/upload-files.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent }, // Ruta por defecto que carga el componente de login al iniciar la página
@@ -16,7 +18,8 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent},
   { path:'memorias', component:  CareerViewComponent},
   { path: 'foro', component: ForoComponent},
-  { path: 'usuarios', component: TablaUsuariosComponent}
+  { path: 'usuarios', component: TablaUsuariosComponent},
+  { path: 'subir-archivo', component: UploadFilesComponent}
 ];
 
 @NgModule({

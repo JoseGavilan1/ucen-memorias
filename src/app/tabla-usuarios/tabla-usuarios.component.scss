@@ -1,31 +1,10 @@
-table {
-  margin-top: 20px;
-  text-align: center;
-  width: 88.7%;
-}
-
 .mat-elevation-z8{
-  background-color: aliceblue;
+  background-color: gray;
   width: 88.7%;
-.content {
-  display: flex;
-  flex-direction: column;
-  margin:1rem auto;
-  box-shadow: -1px 3px 66px 0px rgba(0,0,0,0.75);
-  width: 88.7%;
+  margin-top: 20px;
 }
 
-.nombre-proyecto-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 
-.mat-menu-panel {
-  position: absolute;
-  top: 30px; /* Ajusta la posición según necesites */
-  right: 0; /* Ajusta la posición según necesites */
-}
- 
-}
+
+
 

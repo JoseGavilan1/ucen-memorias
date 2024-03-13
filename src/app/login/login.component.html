@@ -1,29 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenido</title>
-</head>
-<body>
-  <div class="component">
-    <div class="overlap-group-wrapper">
-      <div class="overlap-group">
-
-        <div class="overlap-2">
-          <img src="../../assets/img/logo.png" class="element-logo-nuevo">
-          <div class="text-wrapper-4">Memorias Universidad Central</div>
-        </div>
-        <img src="../../assets/img/usuario.png" class="usuario" style="top: 235px; left: 60px;">
-        <input placeholder="Nombre de usuario" class="overlap">
-        <img src="../../assets/img/bloquear.png" class="bloquear" style="top: 325px; left: 60px;">
-        <input type="password" placeholder="Contraseña" class="overlap" style="top: 300px;">
-        <a class="text-wrapper-3 btn btn-warning" href="#">Recuperar contraseña</a>
+<div class="component">
+  <div class="overlap-group-wrapper">
+    <div class="overlap-group">
+      <div class="overlap-2">
+        <img src="../../assets/img/logo.png" class="element-logo-nuevo" />
+        <div class="text-wrapper-4">Memorias Universidad Central</div>
       </div>
-
-      <button (click)="irAInicio()" class="text-wrapper-3 btn btn-primary" style="color:#000000; position: absolute; z-index:2;">Ingresar</button>
+      <img
+        src="../../assets/img/usuario.png"
+        class="usuario"
+        style="top: 235px; left: 60px"
+      />
+      <input placeholder="Nombre de usuario" class="overlap" />
+      <img
+        src="../../assets/img/bloquear.png"
+        class="bloquear"
+        style="top: 325px; left: 60px"
+      />
+      <input
+        type="password"
+        placeholder="Contraseña"
+        class="overlap"
+        style="top: 300px"
+      />
+      <a class="text-wrapper-3 btn btn-warning" href="#"
+        >Recuperar contraseña</a
+      >
     </div>
-  </div>
 
-</body>
-</html>
+    <button
+      (click)="irAInicio()"
+      class="text-wrapper-3 btn btn-primary"
+      style="color: #000000; position: absolute; z-index: 2"
+    >
+      Ingresar
+    </button>
+  </div>
+</div>

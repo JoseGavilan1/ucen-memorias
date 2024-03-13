@@ -43,7 +43,22 @@
   .box-descripcion{
     width: 600px;
     height: 547px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  .casilla-texto{
+    height: 40px;
+    margin-right: 40px;
+    width: 300px;
+  }
+
+  .boton-subir{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 40px;
+    width: 100px;
   }
 }
 
